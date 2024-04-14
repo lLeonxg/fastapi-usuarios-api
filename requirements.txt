@@ -8,3 +8,4 @@ websockets
 wrapt
 uvloop
 python-dotenv
+db
