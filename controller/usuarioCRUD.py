@@ -47,4 +47,4 @@ async def delete_usuario(email:str):
     deleted_usuario= await collection.find_one_and_delete({"email": email})
     if deleted_usuario:
         return deleted_usuario
-    raise HTTPException(status_code=404, detail="Usuario No encontrado")s_code=404,detail="usuario no encontrado")
+    raise HTTPException(status_code=404, detail="Usuario No encontrado")
